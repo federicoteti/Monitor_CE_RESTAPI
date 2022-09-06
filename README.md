@@ -32,7 +32,7 @@ Usage for a Nagios Command will be nearly identical.
 ```bash
 # Check an API endpoint and send a 'critical' value if 
 # the JSON key `cpu` is above `80`
-./monitor_ce_restapi -H http://www.contoso.com/api/endpoint -K cpu -c \~:80
+./monitor_ce_restapi -H http://www.yourdomain.com/api/endpoint -K cpu -c \~:80
 
 # Check an API endpoint and send a 'warning' value if the 
 # JSON key `files` is less than `23`
@@ -64,4 +64,4 @@ To compile the program from scratch:
 ### Dependencies:
 `monitor_ce_restapi` has only two external dependencies:
 - [`libcurl`](https://curl.haxx.se/libcurl/) - for making HTTP/HTTPS calls and retrieving data from a REST API
-- [`JSON-C`](https://github.com/json-c/json-c) - for parsing JSON results from an API                                                                                                                                                                                                                       - Make sure your dependencies are installed                                                                                                                                                                                                  - `make`                                                                                                                                                                                                                                                                                                                                                                                                                            
+- [`JSON-C`](https://github.com/json-c/json-c) - for parsing JSON results from an API                                                                                                                                                         - Make sure your dependencies are installed                                                                                                                                                   - `make`                                                                                                                                                                                                                                                                                                                                                                                                                            
