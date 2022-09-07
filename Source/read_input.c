@@ -9,7 +9,7 @@
 #include "headers/monitor_ce_restapi.h"
 extern struct argValues* argVals;
 // Help Message
-char helpMessage[] = "Usage: check_rest_api [OPTIONS..]\n\nOptions:\n\
+char helpMessage[] = "Usage: monitor_ce_restapi [OPTIONS..]\n\nOptions:\n\
   -h, --help\n\
     Print detailed help screen\n\
   -V, --version\n\
@@ -26,7 +26,7 @@ char helpMessage[] = "Usage: check_rest_api [OPTIONS..]\n\nOptions:\n\
     If omitted 'GET' is assumed.\n\
   -K, --key jsonKey\n\
     Optional; a comma delimited list of JSON keys to check. The value of this key must be a number\n\
-     If not provided, check_rest_api will check the HTTP status code. Anything < 400 will return OK,\n\
+     If not provided, monitor_ce_restapi will check the HTTP status code. Anything < 400 will return OK,\n\
      Anthing >=400 and < 500 will return WARNING, and >= 500 will return CRITICAL.\n\
   -w, --warning warningThreshold\n\
     Optional; a comma delimited list of WARNING thresholds that map to the corresponding -K, --key (JSON key)\n\
@@ -44,7 +44,7 @@ char helpMessage[] = "Usage: check_rest_api [OPTIONS..]\n\nOptions:\n\
     Disables checking peer's SSL certificate (if using SSL/HTTPS). Not recommended to use\n\
   \nReport Bugs to: fteti@netskope.com\n";
 
-char version[] = "monitor_ce_api version: 1.0\n";
+char version[] = "monitor_ce_restapi version: 1.0\n";
 
 // Used to make a string uppercase
 void toUpper(char* str) {
