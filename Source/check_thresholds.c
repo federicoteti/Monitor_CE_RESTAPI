@@ -4,9 +4,9 @@
 #include <ctype.h>
 
 #include <curl/curl.h>
-#include <json/json_tokener.h>
-#include <json/json_object.h>
-#include <json/json_util.h>
+#include <json-c/json_tokener.h>
+#include <json-c/json_object.h>
+#include <json-c/json_util.h>
 
 #include "headers/monitor_ce_restapi.h"
 #include "headers/read_input.h"
