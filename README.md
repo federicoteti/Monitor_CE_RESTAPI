@@ -3,12 +3,14 @@ Nagios Plugin to monitor Cloud Exchange
 More documentation can be found here: [Netskope Cloud Exchange](https://docs.netskope.com/en/netskope-cloud-exchange.html)
 
 Currently on best effort basis
-###Developed by Federico Teti
+### Developed by Federico Teti
 
 ## Installation
 Install this program by downloading the proper version for your operation system on the [releases](https://github.com/federicoteti/Monitor_CE_RESTAPI/releases) page, then drop the executable in the `libexec/` folder of your Nagios installation.
 
-After installing this program you can create custom commands in Nagios to utilize it. Reference the Nagios user manual for more information on custom commands.
+After installing this program you can create custom commands in Nagios to utilize it. Reference the Nagios user manual for more information on custom commands. 
+Nagios oficial documentation can be found [here](https://www.nagios.org/documentation/)
+Netskope Cloud Exchange API Swagger can be found in your own installation, following this reference [API_DOCS](https://CE_ip:port/api/docs#/)
  
 ## Usage
 The below usage assumes you are running the program stand-alone on a command line.
